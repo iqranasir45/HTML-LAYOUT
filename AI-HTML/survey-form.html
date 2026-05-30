@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+      <!-- Outer page wrapper -->
+  <div>
+ 
+    <!-- Form title -->
+    <h1>Survey Form</h1>
+ 
+    <!-- Main form container -->
+    <div>
+ 
+      <!-- Form description / subtitle -->
+      <p>Let us know how we can improve freeCodeCamp</p>
+ 
+      <!-- Name field (required) -->
+      <div>
+        <label for="name">* Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+      </div>
+ 
+      <!-- Email field (required) -->
+      <div>
+        <label for="email">* Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email">
+      </div>
+ 
+      <!-- Age field (required, number spinner) -->
+      <div>
+        <label for="age">* Age:</label>
+        <input type="number" id="age" name="age" placeholder="Age">
+      </div>
+ 
+      <!-- Role dropdown — single selection -->
+      <div>
+        <label for="role">Which option best describes your current role?</label>
+        <select id="role" name="role">
+          <option value="student">Student</option>
+          <option value="full-time-job">Full Time Job</option>
+          <option value="full-time-learner">Full Time Learner</option>
+          <option value="prefer-not-to-say">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+ 
+      <!-- Recommendation likelihood — radio group (required, mutually exclusive) -->
+      <div>
+        <label>* How likely is that you would recommend freeCodeCamp to a friend?</label>
+ 
+        <!-- Option: Definitely -->
+        <div>
+          <input type="radio" id="definitely" name="recommend" value="definitely">
+          <label for="definitely">Definitely</label>
+        </div>
+ 
+        <!-- Option: Maybe -->
+        <div>
+          <input type="radio" id="maybe" name="recommend" value="maybe">
+          <label for="maybe">Maybe</label>
+        </div>
+ 
+        <!-- Option: Not sure -->
+        <div>
+          <input type="radio" id="not-sure" name="recommend" value="not-sure">
+          <label for="not-sure">Not sure</label>
+        </div>
+      </div>
+ 
+      <!-- Favourite FCC feature — single-select dropdown -->
+      <div>
+        <label for="like-most">What do you like most in FCC?</label>
+        <select id="like-most" name="like-most">
+          <!-- Placeholder option, disabled so it can't be reselected -->
+          <option value="" disabled selected>Select an option</option>
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option>
+          <option value="open-source">Open Source</option>
+        </select>
+      </div>
+ 
+      <!-- Improvement suggestions — checkbox group (multiple selections allowed) -->
+      <div>
+        <label>Things that should be improved in the future (Check all that apply):</label>
+ 
+        <!-- Checkbox: Front-end Projects -->
+        <div>
+          <input type="checkbox" id="front-end" name="improvements" value="front-end">
+          <label for="front-end">Front-end Projects</label>
+        </div>
+ 
+        <!-- Checkbox: Back-end Projects -->
+        <div>
+          <input type="checkbox" id="back-end" name="improvements" value="back-end">
+          <label for="back-end">Back-end Projects</label>
+        </div>
+ 
+        <!-- Checkbox: Data Visualization -->
+        <div>
+          <input type="checkbox" id="data-viz" name="improvements" value="data-viz">
+          <label for="data-viz">Data Visualization</label>
+        </div>
+ 
+        <!-- Checkbox: Challenges -->
+        <div>
+          <input type="checkbox" id="challenges" name="improvements" value="challenges">
+          <label for="challenges">Challenges</label>
+        </div>
+ 
+        <!-- Checkbox: Open Source Community -->
+        <div>
+          <input type="checkbox" id="open-source" name="improvements" value="open-source">
+          <label for="open-source">Open Source Community</label>
+        </div>
+      </div>
+ 
+      <!-- Free-text comments / suggestions field -->
+      <div>
+        <label for="comments">Any comments or suggestions?</label>
+        <textarea id="comments" name="comments" placeholder="Enter your comment here..."></textarea>
+      </div>
+ 
+      <!-- Form submission button -->
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+ 
+    </div> <!-- end: Main form container -->
+  </div> <!-- end: Outer page wrapper -->
+</body>
+</html>
