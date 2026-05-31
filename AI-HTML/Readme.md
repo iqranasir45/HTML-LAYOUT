@@ -1,15 +1,15 @@
-# Explaination of coding using AI Assistance
+# Explanation of coding using AI Assistance
 
 ## Prompt:
-I upload the picture of the UI layouts and give the prompt to `Claude AI` that Create the HTML structure of the UI layout shown above. Use No CSS decoration, Only pure HTML structure. And also add comments on each line for better understanding of code.
+I upload the picture of the UI layouts and give the prompt to `Claude AI` to create the HTML structure of the UI layout shown above. Use no CSS decoration, only pure HTML structure. And also add comments on each line for better understanding of the code.
 
 ## AI Help:
-Claude AI procive me pure HTML structure throughout with the comments. and also provide me a downloadable HTML file.
+Claude AI provided me with a pure HTML structure throughout, with the comments. and also provide me with a downloadable HTML file.
 
 ## What you changed:
-I have changed nothing because I want to compare manual code with the AI code.
+I have changed nothing because I want to compare the manual code with the AI code.
 
 ## Video Recording Link:
-I have record the video on loom and I'm goinbg to directly share the loom link:
+[I have record the video on loom and I'm goinbg to directly share the loom link:
 
-https://www.loom.com/share/72bde202ef4544fa8aa7c60216f90b4b
+https://www.loom.com/share/72bde202ef4544fa8aa7c60216f90b4b](https://youtu.be/OyxgsO6jGdg)
