@@ -38,3 +38,9 @@ Used Semantic tags for better understanding of sections.
 | `<div>` | used div tag to make a separate section for each field of form instead of <br> tag, because <br> just break the line, not separate the sections |
 | `for` / `id` on every label | Links label to its input for accessibility and clickable labels |
 | `<center>` | used to center the form content on the page (just for the time being, to fulfil the UI layout requirements, because we are not using any CSS decoration yet) |
+
+
+## Video Recording Link:
+I have record the video on loom and I'm goinbg to directly share the loom link:
+
+https://www.loom.com/share/fea86a4ff9a4444c864186e0e3996be0
