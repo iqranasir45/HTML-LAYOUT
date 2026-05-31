@@ -13,42 +13,55 @@
             <h1>Survey Form</h1>
             <p>Let Us know how we can improve freeCodeCamp</p>
             <form action="/submit-survey" method="post">
-                <label for="name">* Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+                <div>
+                    <label for="name">* Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <label for="email">* Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
     
-                <label for="email">* Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                <div>
+                    <label for="age">* Age:</label>
+                    <input type="number" id="age" name="age" placeholder="Age" required>
+                </div>
     
-                <label for="age">* Age:</label>
-                <input type="number" id="age" name="age" placeholder="Age" required><br><br>
-    
-                <label for="currentrole">Which option best describes your current role?</label>
-                <select id="currentrole" name="currentrole">
-                    <option value="Student">Student</option>
-                    <option value="Software Engineer">Software Engineer</option>
-                </select><br><br>
+                <div>
+                    <label for="currentrole">Which option best describes your current role?</label>
+                    <select id="currentrole" name="currentrole">
+                        <option value="Student">Student</option>
+                        <option value="Software Engineer">Software Engineer</option>
+                    </select>
+                </div>
 
-                <label>* How likely is that you would recommend freeCodeCamp to a friend?</label><br>
-                <input type="radio" id="definite" name="recommend FCC" value="definitely" required>
-                <label for="definite">Definitely</label><br>
-                <input type="radio" id="maybe" name="recommend FCC" value="maybe">                              
-                <label for="maybe">Maybe</label><br>
-                <input type="radio" id="notsure" name="recommend FCC" value="notsure">
-                <label for="notsure">Not Sure</label><br><br>
+                <div>
+                    <label>* How likely is that you would recommend freeCodeCamp to a friend?</label><br>
+                    <input type="radio" id="definite" name="recommend FCC" value="definitely" required>
+                    <label for="definite">Definitely</label><br>
+                    <input type="radio" id="maybe" name="recommend FCC" value="maybe">                              
+                    <label for="maybe">Maybe</label><br>
+                    <input type="radio" id="notsure" name="recommend FCC" value="notsure">
+                    <label for="notsure">Not Sure</label>
+                </div>
 
-                <label for="FCC">What do you like most in FCC:</label>
-                <select id="FCC" name="FCC">
-                    <option value="Select an Option">Select an Option</option>
-                    <option value="Other">Other</option>
-                </select><br><br>
+                <div>
+                    <label for="FCC">What do you like most in FCC:</label>
+                    <select id="FCC" name="FCC">
+                        <option value="Select an Option">Select an Option</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
 
-                <label>Things that should be improved in the future <br>(Check all that apply):</label><br>
-                <input type="checkbox" id="frontendproject" name="improveming FCC" value="frontendproject">
-                <label for="frontendproject">Front-end Projects</label><br>  
-                <input type="checkbox" id="backendproject" name="improveming FCC" value="backendproject">
-                <label for="backendproject">Back-end Projects</label><br>  
-                <input type="checkbox" id="datavisualize" name="improveming FCC" value="datavisualization">
-                <label for="datavisualize">Data Visualization</label><br>  
+                <div>
+                    <label>Things that should be improved in the future <br>(Check all that apply):</label><br>
+                    <input type="checkbox" id="frontendproject" name="improving FCC" value="frontendproject">
+                    <label for="frontendproject">Front-end Projects</label><br>  
+                    <input type="checkbox" id="backendproject" name="improving FCC" value="backendproject">
+                    <label for="backendproject">Back-end Projects</label><br>  
+                    <input type="checkbox" id="datavisualize" name="improving FCC" value="datavisualization">
+                    <label for="datavisualize">Data Visualization</label><br>
+                </div>  
             </form>
         </center>
         
