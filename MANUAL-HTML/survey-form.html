@@ -1,70 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
 </head>
+
 <body>
-    <!-- create a main section -->
-     <main>
-        <!-- use to center the form -->
-        <center>
-            <h1>Survey Form</h1>
-            <p>Let Us know how we can improve freeCodeCamp</p>
-            <form action="/submit-survey" method="post">
+    <!-- Main Content -->
+    <main>
+        <!-- Main Outer Container of Form -->
+        <div>
+            <!-- Centered Content -->
+            <center>
+                <h1>Survey Form</h1>
+                <!-- Inner Container -->
                 <div>
-                    <label for="name">* Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    <!-- Form Description -->
+                    <p>Let Us know how we can improve freeCodeCamp</p>
+                    <!-- Form -->
+                    <form action="/submit-survey" method="post">
+                        <!-- Name field -->
+                        <div>
+                            <label for="name">* Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <!-- Email field -->
+                        <div>
+                            <label for="email">* Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <!-- Age field -->
+                        <div>
+                            <label for="age">* Age:</label>
+                            <input type="number" id="age" name="age" placeholder="Age" required>
+                        </div>
+                        <!-- Current Role Selector -->
+                        <div>
+                            <label for="currentrole">Which option best describes your current role?</label>
+                            <select id="currentrole" name="currentrole">
+                                <option value="Student">Student</option>
+                                <option value="Software Engineer">Software Engineer</option>
+                            </select>
+                        </div>
+                        <!-- FCC Recommendation Question  -->
+                        <div>
+                            <label>* How likely is that you would recommend freeCodeCamp to a friend?</label>
+                            <input type="radio" id="definite" name="recommend FCC" value="definitely" required>
+                            <label for="definite">Definitely</label><br>
+                            <input type="radio" id="maybe" name="recommend FCC" value="maybe">
+                            <label for="maybe">Maybe</label><br>
+                            <input type="radio" id="notsure" name="recommend FCC" value="notsure">
+                            <label for="notsure">Not Sure</label>
+                        </div>
+                        <!-- Favorite Feature of FCC -->
+                        <div>
+                            <label for="FCC">What do you like most in FCC:</label>
+                            <select id="FCC" name="FCC">
+                                <option value="Select an Option">Select an Option</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <!-- Suggestions for Improvement -->
+                        <div>
+                            <label>Things that should be improved in the future (Check all that apply):</label>
+                            <input type="checkbox" id="frontendproject" name="improving FCC" value="frontendproject">
+                            <label for="frontendproject">Front-end Projects</label><br>
+                            <input type="checkbox" id="backendproject" name="improving FCC" value="backendproject">
+                            <label for="backendproject">Back-end Projects</label><br>
+                            <input type="checkbox" id="datavisualize" name="improving FCC" value="datavisualization">
+                            <label for="datavisualize">Data Visualization</label><br>
+                        </div>
+                    </form>
+                    <!-- End of Form -->
                 </div>
-                <div>
-                    <label for="email">* Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                </div>
-    
-                <div>
-                    <label for="age">* Age:</label>
-                    <input type="number" id="age" name="age" placeholder="Age" required>
-                </div>
-    
-                <div>
-                    <label for="currentrole">Which option best describes your current role?</label>
-                    <select id="currentrole" name="currentrole">
-                        <option value="Student">Student</option>
-                        <option value="Software Engineer">Software Engineer</option>
-                    </select>
-                </div>
-
-                <div>
-                    <label>* How likely is that you would recommend freeCodeCamp to a friend?</label><br>
-                    <input type="radio" id="definite" name="recommend FCC" value="definitely" required>
-                    <label for="definite">Definitely</label><br>
-                    <input type="radio" id="maybe" name="recommend FCC" value="maybe">                              
-                    <label for="maybe">Maybe</label><br>
-                    <input type="radio" id="notsure" name="recommend FCC" value="notsure">
-                    <label for="notsure">Not Sure</label>
-                </div>
-
-                <div>
-                    <label for="FCC">What do you like most in FCC:</label>
-                    <select id="FCC" name="FCC">
-                        <option value="Select an Option">Select an Option</option>
-                        <option value="Other">Other</option>
-                    </select>
-                </div>
-
-                <div>
-                    <label>Things that should be improved in the future <br>(Check all that apply):</label><br>
-                    <input type="checkbox" id="frontendproject" name="improving FCC" value="frontendproject">
-                    <label for="frontendproject">Front-end Projects</label><br>  
-                    <input type="checkbox" id="backendproject" name="improving FCC" value="backendproject">
-                    <label for="backendproject">Back-end Projects</label><br>  
-                    <input type="checkbox" id="datavisualize" name="improving FCC" value="datavisualization">
-                    <label for="datavisualize">Data Visualization</label><br>
-                </div>  
-            </form>
-        </center>
-        
-     </main>
+                <!-- End of Inner Container -->
+            </center>
+            <!-- End of Centered Content -->
+        </div>
+        <!-- End of Outer Container -->
+    </main>
+    <!-- End of Main Content -->
 </body>
+
 </html>

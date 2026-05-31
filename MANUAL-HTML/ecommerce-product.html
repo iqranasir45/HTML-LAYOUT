@@ -1,13 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce Product</title>
 </head>
+
 <body>
+    <!-- Main Header -->
     <header>
-        
+        <!-- logo -->
+        <a href="ecommerce-product.html" class="logo">
+            <span class="logo-text">TIMELESS WATCHES</span>
+        </a>
+        <!-- End of Logo -->
+        <!-- Search Bar -->
+        <search class="search-bar">
+            <input type="search" id="search-site" name="search" placeholder="Search...">
+            <button type="submit">
+                <span class="search-icon">🔍</span>
+            </button>
+        </search>
+        <!-- End of Search Bar -->
+        <!-- Navigation Menu -->
+        <nav class="navigation-menu">
+            <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Brands</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- End of Navigation Menu -->
     </header>
+    <!-- End of Main Header -->
+    <!-- Main Content -->
+    <main>
+        <!-- Product Display Section -->
+        <section class="product-display">
+            <!-- Product Image Gallery -->
+            <div class="product-gallery">
+                <!-- Main Product Image -->
+                <div class="main-image">
+                    <img src="images/Main-Watch.jpg" alt="Elegant Luxury Watch Main Image View">
+                </div>
+                <!-- Thumbnail Images -->
+                <div class="thumbnail-images">
+                    <img src="images/Thumbnail-Watch.jpg" alt="thumbnail view 1">
+                    <img src="images/Thumbnail-Watch.jpg" alt="thumbnail view 2">
+                    <img src="images/Thumbnail-Watch.jpg" alt="thumbnail view 3">
+                    <img src="images/Thumbnail-Watch.jpg" alt="thumbnail view 4">
+                    <img src="images/Thumbnail-Watch.jpg" alt="thumbnail view 5">
+                    <img src="images/Thumbnail-Watch.jpg" alt="thumbnail view 6">
+                </div>
+            </div>
+            <!-- End of Product Image Gallery -->
+
+            <!-- Product Details -->
+            <div class="product-details">
+                <!-- Product Title -->
+                <h1>Elegant Luxury Watch</h1>
+                <!-- Brand Name -->
+                <p class="brand">PRESTIGE TIME CO.</p>
+                <!-- Price -->
+                <div class="price-section">
+                    <!--  Discounted Price -->
+                    <span class="discounted-price">$499.99</span>
+                    <!-- Cutting Price -->
+                    <span class="cutting-price"><del>$799.99</del></span>
+                    <!-- Discount Percentage -->
+                    <span class="discount-percentage">38% OFF</span>
+                </div>
+                <!-- Description -->
+                <p class="description">
+                    This luxurious timepiece combines elegance with precision craftsmanship.
+                    Perfect for formal occasions or everyday wear, it features premium materials and
+                    impeccable design.
+                </p>
+                <!-- Rating -->
+                <div class="rating">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="rating-text">Rated 4.8/5 (256 reviews)</span>
+                </div>
+                <!-- Quantity Selector -->
+                <div class="quantity-selector">
+                    <button class="decrease-qty">-</button>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    <button class="increase-qty">+</button>
+                </div>
+                <!-- Add to bag Button -->
+                <button class="add-to-bag">Add to Bag</button>
+                <!-- Promo section -->
+                <div class="promo-section">
+                    <h3>Limited-Time Offer!</h3>
+                    <p>Get an additional 10% off your first purchase when you sign up for our newsletter.</p>
+                    <button class="signup-btn">Sign Up Now</button>
+                </div>
+            </div>
+            <!-- End of Product Details -->
+        </section>
+        <!-- End of Product Display Section -->
+    </main>
+    <!-- End of Main Content -->
 </body>
+
 </html>
